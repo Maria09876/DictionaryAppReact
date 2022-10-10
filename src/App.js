@@ -10,7 +10,7 @@ export default function App() {
         <header className="App-header">
         <img src={logo} className="App-logo img-fluid" alt="logo"></img>
         </header>
-        <main> <Dictionary/> </main>
+        <main> <Dictionary defaultKeyword="cloud"/> </main>
         <footer><small> Coded by Maria Efthymiou within the framework of SheCodes Workshops. This project is open sourced on Github and hosted on Netlify.</small></footer>
       </div>
     </div>
