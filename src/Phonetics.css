@@ -1,3 +1,12 @@
-.ReactAudioPlayer{
-    margin-top: 20px
+.Phonetics {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  max-height: 70px;
 }
+
+.ReactAudioPlayer{
+    margin-top: 20px;     
+    
+}
+
+

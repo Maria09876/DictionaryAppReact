@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 import Results from "./Results";
+import "./Dictionary.css"; 
 
 export default function Dictionary(props){
 const[keyword,setKeyword]=useState(props.defaultKeyword);
@@ -36,10 +37,15 @@ const[loaded, setLoaded]=useState(false)
 if (loaded){
     return (
     <div className="Dictionary">
+        <section>
+            <h1>What word do you want to look up?</h1>
         <form onSubmit={handleSubmit}>
             <input type="search" autoFocus={true} onChange={handleKeywordChange} defaultValue={props.defaultKeyword}/>
         </form>
+        <div className="hint">Suggested words: sea, coffee, breeze, nature...</div>
+        </section>
         <Results results={results}/>
+        
     </div>
     )
 } else {
