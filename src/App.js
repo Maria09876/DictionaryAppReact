@@ -8,7 +8,10 @@ export default function App() {
     <div className="App">
       <div className='container'>
         <header className="App-header">
+        <div className="logo-title">
         <img src={logo} className="App-logo img-fluid rounded float-left" alt="logo"></img>
+        <span className="title"><em>Online Dictionary</em></span>
+        </div>
         </header>
         <main> <Dictionary defaultKeyword="cloud"/> </main>
         <footer>

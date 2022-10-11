@@ -12,13 +12,23 @@ a .hover{
 
 .App-header{
     margin-top: 30px;
+    text-align: center;
+    
+}
+.App-header .title{
+    font-size: 35px;
+}
+
+.App-header .logo-title{
+ text-align: left;
+
 }
 
 .App-logo{
-    display: block;
-    max-width: 75px;
-    text-align: left;
-    margin-left:10px;
+ display: inline-block;
+ max-width: 90px;
+ margin-right:20px;
+ margin-left: 10px;
 }
 
 .App footer{
