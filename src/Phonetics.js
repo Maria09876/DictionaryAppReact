@@ -3,8 +3,9 @@ import ReactAudioPlayer from "react-audio-player";
 import "./Phonetics.css"
 
 export default function Phonetics(props){
-  
-    return (
+ 
+    if (props.phonetics.audio){
+         return (
         <div className="Phonetics">
             <h4>
             {props.phonetics.text}
@@ -16,6 +17,10 @@ export default function Phonetics(props){
             controls={true} />
             </div>
         </div>
-    );
+    )
+    } else {
+        return null;
+    }
+   ;
 
 }
