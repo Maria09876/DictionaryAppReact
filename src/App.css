@@ -1,7 +1,10 @@
 body{
-    background: white;
+    background-color: white;
 }
-
+.App{
+    max-width: 960px;
+    margin: auto;
+}
 a{
     color: black;
     
@@ -12,21 +15,16 @@ a .hover{
 
 .App-header{
     margin-top: 30px;
-    text-align: center;
-    
-}
-.App-header .title{
-    font-size: 35px;
+    text-align: center;    
 }
 
 .App-header .logo-title{
  text-align: left;
-
 }
 
 .App-logo{
  display: inline-block;
- max-width: 90px;
+ max-width: 60%;
  margin-right:20px;
  margin-left: 10px;
 }
@@ -34,3 +32,4 @@ a .hover{
 .App footer{
     margin: 20px;
 }
+
